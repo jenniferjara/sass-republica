@@ -1,3 +1,4 @@
+/******blog**********/
 /********blog****/
 * {
   box-sizing: border-box;
@@ -19,5 +20,11 @@
       color: #7D7D7D; }
     .borde-blog .cuadro-gris img {
       border: 3px solid #fff; }
+
+.sub-blog {
+  color: #7D7D7D;
+  text-transform: uppercase;
+  margin-right: 1%;
+  display: inline-block; }
 
 /*# sourceMappingURL=main.css.map */
