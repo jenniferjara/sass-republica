@@ -1,1 +1,9 @@
-_mixins.scss
+/********blog****/
+@mixin bordes($borde, $padding, $margins){
+	border: $borde solid $color-footer;
+	padding: $padding;
+	margin-top: $margins;
+}
+@mixin imagen($borde){
+	border: $borde solid $color-blanco;
+}

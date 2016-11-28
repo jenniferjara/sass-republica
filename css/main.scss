@@ -1,5 +1,23 @@
 @import "_variables";
-@import "_functiones";
+@import "_funciones";
 @import "_mixins";
 
-/*****************/
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+	font-family: PT Sans;
+}
+
+/********blog************/
+.borde-blog{
+	@include bordes(2px, 3%, 15px);
+	.cuadro-gris{
+		@include bordes(0px, 1%, 15px);
+		background: $color-footer;
+		a {color: $color-texto-menu;}
+		img{
+			@include imagen(3px);
+		}
+	}
+}
