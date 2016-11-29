@@ -182,9 +182,9 @@
   background-color: #BA1414;
   border-radius: 8px; }
   .nav-tabs li > a {
+    font-family: Oswald;
     color: #FFF;
     margin: 0px;
-    /* padding-left: 25px; */
     text-transform: uppercase; }
     .nav-tabs li > a:hover {
       border: none;
@@ -202,10 +202,10 @@
   .tema-dia .tema {
     color: #fff;
     text-align: center;
-    font-family: Oswald;
     background: #111417;
     border-radius: 8px; }
     .tema-dia .tema .tema-titulo {
+      font-family: Oswald;
       margin: 0 auto; }
   .tema-dia .lista {
     border-radius: 0px 5px 5px 0px;

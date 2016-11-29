@@ -235,9 +235,9 @@
 .nav-tabs{
 	@include menu(8px);	
 	li > a{
+		font-family: Oswald;
 		color: #FFF;
 		margin: 0px;
-		/* padding-left: 25px; */
 		text-transform: uppercase;
 		&:hover{
 			@include hover($color-menu-hover);
@@ -257,11 +257,13 @@
 	.tema{
 		color: #fff;
 		text-align: center;
-		font-family: Oswald;
 		background: $color-menu-negro;
 		border-radius: 8px;
 
-		.tema-titulo{margin:0 auto;}
+		.tema-titulo{
+			font-family: Oswald;
+			margin:0 auto;
+		}
 	}
 	.lista {
 	   border-radius: 0px 5px 5px 0px;
