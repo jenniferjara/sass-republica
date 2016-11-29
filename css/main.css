@@ -1,10 +1,12 @@
+/******blog**********/
+/********blog****/
+/********************************/
 * {
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
   font-family: PT Sans; }
-  
-/******banner**********/
+
 .bg-head {
   background: #E3E3E3; }
 
@@ -62,5 +64,113 @@
   text-transform: uppercase;
   margin-right: 1%;
   display: inline-block; }
+
+/*******second-banner**********/
+.second-banner {
+  margin-top: 2%; }
+  .second-banner .logo img {
+    width: 80%;
+    padding: 2% 0; }
+  .second-banner .domingo {
+    border: 1px solid gray;
+    border-bottom: 3px solid #BA1414;
+    text-align: center;
+    font-weight: bold; }
+    .second-banner .domingo span {
+      background-color: #BA1414;
+      position: absolute;
+      top: -10px;
+      left: 40%;
+      padding: 1%;
+      color: #fff; }
+    .second-banner .domingo p {
+      padding-top: 10%; }
+  .second-banner .editorial div:first-child {
+    background-color: #111417;
+    padding: 1%; }
+    .second-banner .editorial div:first-child img {
+      width: 36%; }
+  .second-banner .editorial div:nth-of-type(2) {
+    background-color: #fff;
+    padding-top: 6%;
+    border-radius: 20px;
+    z-index: 9;
+    margin-left: -30px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray; }
+    .second-banner .editorial div:nth-of-type(2) span {
+      font-weight: bold; }
+  .second-banner .editorial div:last-child {
+    margin-left: -35px;
+    z-index: 99; }
+
+@media (max-width: 800px) {
+  .second-banner {
+    font-size: 20px; }
+    .second-banner .logo img {
+      width: 40%;
+      padding: 2% 0; }
+    .second-banner .domingo p {
+      padding-top: 9%; }
+    .second-banner .domingo span {
+      left: 45%; }
+    .second-banner .editorial {
+      padding: 0 0; }
+      .second-banner .editorial div:first-child img {
+        width: 30%; }
+      .second-banner .editorial div:nth-of-type(2) {
+        padding-top: 8%;
+        margin-left: -70px; }
+      .second-banner .editorial div:last-child {
+        margin-left: -60px;
+        padding: 0 0; }
+        .second-banner .editorial div:last-child img {
+          width: 130%;
+          top: -5px;
+          position: absolute; } }
+@media (max-width: 600px) {
+  .second-banner {
+    padding: 2%;
+    font-size: 16px; }
+    .second-banner .logo img {
+      width: 70%;
+      padding: 2% 0; }
+    .second-banner .domingo {
+      margin-top: 2%; }
+      .second-banner .domingo p {
+        padding-top: 10%; }
+      .second-banner .domingo span {
+        left: 39%; }
+    .second-banner .editorial div:first-child img {
+      width: 45%;
+      padding: 2%; }
+    .second-banner .editorial div:nth-of-type(2) {
+      padding-top: 10%;
+      margin-left: -38px; }
+    .second-banner .editorial div:last-child {
+      margin-left: -60px; }
+      .second-banner .editorial div:last-child img {
+        width: 180%; } }
+@media (max-width: 400px) {
+  .second-banner {
+    font-size: 14px; }
+    .second-banner .editorial div:first-child img {
+      width: 42%;
+      padding: 0 0; }
+    .second-banner .editorial div:nth-of-type(2) {
+      padding-top: 9%;
+      margin-left: -35px; }
+    .second-banner .editorial div:last-child {
+      margin-left: -48px; } }
+@media (max-width: 350px) {
+  .second-banner .editorial div:first-child img {
+    width: 46%;
+    padding: 0 0; }
+  .second-banner .editorial div:nth-of-type(2) {
+    margin-left: -30px; }
+  .second-banner .editorial div:last-child {
+    margin-left: -40px; }
+    .second-banner .editorial div:last-child img {
+      width: 190%; } }
 
 /*# sourceMappingURL=main.css.map */
