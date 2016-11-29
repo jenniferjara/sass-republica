@@ -1,1 +1,14 @@
-_mixins.scss
+//menu//
+
+@mixin menu($borde-menu){
+	font-family: Oswald;
+	background-color: $color-rojo;
+	border-radius:$borde-menu;
+}
+
+@mixin hover ($fondo){
+	border: none;
+	background-color: $fondo;
+}
+
+//menu

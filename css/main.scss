@@ -1,5 +1,53 @@
 @import "_variables";
-@import "_functiones";
+@import "_funciones";
 @import "_mixins";
 
 /*****************/
+
+//inicio menu
+
+.container {
+	.imagen > .banner-header {
+		width: 97%;
+	}
+}
+.nav-tabs{
+	@include menu(8px);	
+	li > a{
+		color: #FFF;
+		margin: 0px;
+		padding-left: 25px;
+		text-transform: uppercase;
+		&:hover{
+			@include hover($color-menu-hover);
+		}
+	}
+	li.active > a{
+		@include hover($color-menu-active);
+		color:#fff;
+	}
+}
+
+.tema-dia {
+	padding: 0;
+	margin: 5px 0px;
+	background: $color-footer;
+	border-radius: 8px;
+	.tema{
+		color: #fff;
+		text-align: center;
+		font-family: Oswald;
+		background: $color-menu-negro;
+		border-radius: 8px;
+	}
+	.lista {
+	   border-radius: 0px 5px 5px 0px;
+	   text-align: center;
+	}
+	.marginB {
+		margin-right: 2%;
+		margin-left: 2%;
+	}
+}
+
+// fin menu
