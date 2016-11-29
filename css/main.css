@@ -205,6 +205,8 @@
     font-family: Oswald;
     background: #111417;
     border-radius: 8px; }
+    .tema-dia .tema .tema-titulo {
+      margin: 0 auto; }
   .tema-dia .lista {
     border-radius: 0px 5px 5px 0px;
     text-align: center; }
