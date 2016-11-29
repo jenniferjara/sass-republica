@@ -25,6 +25,4 @@
   
   ![Sin titulo](http://i68.tinypic.com/2ywbl7o.png)
   
-**Desarrollo del proyecto**
-
-+ 
+Link del demo: [View Demo](https://jenniferjara.github.io/sass-republica/ "Demo")
