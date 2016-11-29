@@ -2,14 +2,7 @@
 
 **Este proyecto fue trabajado en equipo, se nos pidio replicar la vista de la sección Blog del diario La República.**
 
-**Integrantes:**
-
-+ Jennifer Jara
-+ Alexandra lopez
-+ Paola Quispe
-+ Karol Orrillo
-+ Sandy Ciquero
-+ Liz Ruelas
+Link del demo: [View Demo](https://jenniferjara.github.io/sass-republica/ "Demo")
 
 **Vistas del proyecto en los dispositivos solicitados:**
 
@@ -25,4 +18,11 @@
   
   ![Sin titulo](http://i68.tinypic.com/2ywbl7o.png)
   
-Link del demo: [View Demo](https://jenniferjara.github.io/sass-republica/ "Demo")
+**Integrantes:**
+
++ Jennifer Jara
++ Alexandra lopez
++ Paola Quispe
++ Karol Orrillo
++ Sandy Ciquero
++ Liz Ruelas
