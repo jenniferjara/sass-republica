@@ -106,7 +106,7 @@
     margin-left: -35px;
     z-index: 99; }
 
-@media (max-width: 800px) {
+@media (max-width: 991px) {
   .second-banner {
     font-size: 20px; }
     .second-banner .logo img {
