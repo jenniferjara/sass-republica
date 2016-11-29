@@ -9,6 +9,31 @@
 	font-family: PT Sans;
 }
 
+// ***********banner********
+.bg-head{
+	background:$color-footer;
+}
+.redes {
+	@include redes(1.5rem, 2%);
+
+	.face {color: $color-fb;}
+	.twi {color: $color-tw;}
+	.goo{color:$color-rojo;}
+	.msj {color:$color-msj;}
+}
+
+.inicio a{
+	@include inicio(2%, 12px);
+}
+
+.btn-color {
+	@include boton(1.1rem, 10px);
+}
+.dp-ib {
+	@include buscar (2%);
+	input{border: none;}
+	i{color: $color-texto-menu;}
+}
 /********blog************/
 .borde-blog{
 	@include bordes(2px, 3%, 15px);

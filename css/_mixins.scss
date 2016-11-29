@@ -8,3 +8,27 @@
 	border: $borde solid $color-blanco;
 }
 /********************************/
+@mixin redes($tamanio, $paddingleft) {
+	list-style:none;
+	font-size:$tamanio;
+	padding-left:$paddingleft;
+}
+
+@mixin inicio($ancho1,$tamletra) {
+	text-decoration:none;
+	font-weight: bold;
+	padding-right:$ancho1;
+	font-size:$tamletra;
+	color:$color-texto-menu;
+}
+@mixin boton($tamletra, $border) {
+	font-size: $tamletra;
+	border-radius: $border;
+	background:$color-rojo;
+	color:$color-blanco;
+}
+@mixin buscar($izquierda) {
+	display: inline-block;
+	padding-left: $izquierda;
+}
+
