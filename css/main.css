@@ -1,0 +1,43 @@
+/*****************/
+* {
+  box-sizing: border-box; }
+
+.second-banner {
+  margin-top: 2%; }
+  .second-banner .logo img {
+    width: 80%;
+    padding: 2% 0; }
+  .second-banner .domingo {
+    border: 1px solid gray;
+    border-bottom: 3px solid #BA1414;
+    text-align: center;
+    font-weight: bold; }
+    .second-banner .domingo span {
+      background-color: #BA1414;
+      position: absolute;
+      top: -10px;
+      left: 40%;
+      padding: 1%;
+      color: white; }
+    .second-banner .domingo p {
+      padding-top: 10%; }
+  .second-banner .editorial div:first-child {
+    background-color: black;
+    padding: 1%; }
+    .second-banner .editorial div:first-child img {
+      width: 36%; }
+  .second-banner .editorial div:nth-of-type(2) {
+    background-color: white;
+    padding-top: 6%;
+    border-radius: 20px;
+    z-index: 9;
+    margin-left: -30px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray; }
+    .second-banner .editorial div:nth-of-type(2) span {
+      font-weight: bold; }
+  .second-banner .editorial div:last-child {
+    margin-left: -35px;
+    z-index: 99; }
+
+/*# sourceMappingURL=main.css.map */
