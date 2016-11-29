@@ -1,4 +1,6 @@
 /******blog**********/
+/*****second-banner***/
+/*****footer***/
 /********blog****/
 /********************************/
 * {
@@ -172,5 +174,40 @@
     margin-left: -40px; }
     .second-banner .editorial div:last-child img {
       width: 190%; } }
+/*******footer**********/
+footer {
+  margin-top: 2%; }
+  footer .bg-footer {
+    background-color: #E3E3E3; }
+    footer .bg-footer h4 {
+      font-weight: bold; }
+    footer .bg-footer li {
+      list-style: none; }
+    footer .bg-footer .row {
+      padding: 30px 0; }
+  footer .contacto {
+    margin: 20px 0; }
+    footer .contacto p {
+      line-height: 10px; }
+  footer .info-contacto {
+    margin: 50% 0; }
+  footer .border-left {
+    border-left: 1px solid #fff;
+    padding-left: 1px; }
+  footer .box-shadow {
+    box-shadow: -1px 0 #D0D0D0; }
+  footer .diarios {
+    border-top: 1px solid white;
+    box-shadow: 0px -1px 0 #D0D0D0;
+    color: #888888;
+    padding: 5px 0; }
+  footer .fondo-footer {
+    padding: 40px 0;
+    background-color: #1A1A1A;
+    color: #fff; }
+    footer .fondo-footer h6 {
+      color: #fff; }
+    footer .fondo-footer h4 {
+      font-weight: bold; }
 
 /*# sourceMappingURL=main.css.map */
